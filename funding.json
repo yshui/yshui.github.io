@@ -1,0 +1,107 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "owner",
+    "name": "Yuxuan Shui",
+    "email": "yuxuan.shui@gmail.com",
+    "phone": "",
+    "description": "Proud maintainer of picom.",
+    "webpageUrl": {
+      "url": "https://trace.yshui.dev",
+      "wellKnown": "https://trace.yshui.dev/.well-known/funding-manifest-urls"
+    }
+  },
+  "projects": [
+    {
+      "guid": "picom",
+      "name": "picom",
+      "description": "A lightweight compositor for X11 with animation support",
+      "webpageUrl": {
+        "url": "https://picom.app",
+        "wellKnown": "https://picom.app/.well-known/funding-manifest-urls"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/yshui/picom",
+        "wellKnown": "https://github.com/yshui/picom/raw/refs/heads/next/.well-known/funding-manifest-urls"
+      },
+      "licenses": [
+        "spdx:MIT",
+        "spdx:MPL-2.0"
+      ],
+      "tags": [
+        "desktop-effects",
+        "user-experience",
+        "linux",
+        "graphics"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/yshui",
+        "description": "GitHub Sponsor"
+      },
+      {
+        "guid": "bank",
+        "type": "bank",
+        "address": "",
+        "description": "Contact me"
+      }
+    ],
+    "plans": [
+      {
+        "guid": "name-your-price",
+        "status": "active",
+        "name": "Pay anything",
+        "description": "Pay anything you wish to show support",
+        "amount": 0,
+        "currency": "GBP",
+        "frequency": "one-time",
+        "channels": [
+          "github"
+        ]
+      },
+      {
+        "guid": "infra",
+        "status": "active",
+        "name": "Infra hosting",
+        "description": "Hosting expenses, e.g. domain name, CI builder, etc.",
+        "amount": 25,
+        "currency": "GBP",
+        "frequency": "monthly",
+        "channels": [
+          "github"
+        ]
+      },
+      {
+        "guid": "dev-time",
+        "status": "active",
+        "name": "Developer time",
+        "description": "This will cover the cost of one person working part-time on this project.",
+        "amount": 1250,
+        "currency": "GBP",
+        "frequency": "monthly",
+        "channels": [
+          "github"
+        ]
+      },
+      {
+        "guid": "dev-full-time",
+        "status": "active",
+        "name": "Working full-time",
+        "description": "The minimal amount that will enable one person working full-time on this project.",
+        "amount": 3000,
+        "currency": "GBP",
+        "frequency": "monthly",
+        "channels": [
+          "github"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
